@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/express:latest
+    container_name: pts
+    environment:
+      ORACLE_PDB: XEPDB1
+      ORACLE_PWD: public-transport-system
+      ORACLE_SID: XE
+      ORACLE_CHARACTERSET: AL32UTF8
+    ports:
+      - "1522:1521"
+    volumes:
+      - ./db:/opt/oracle/scripts/startup
