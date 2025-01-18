@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Se cekira" directorySegmentName="seg_0" id="03DD8DF4-0D49-8BEC-B289-3EE0A6C2B13F">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:49:21 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6EC1B79F-D21E-73A0-E8DE-6E882FE7F74B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F1D0108F-455A-D22F-6F18-7A38A2067F75</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

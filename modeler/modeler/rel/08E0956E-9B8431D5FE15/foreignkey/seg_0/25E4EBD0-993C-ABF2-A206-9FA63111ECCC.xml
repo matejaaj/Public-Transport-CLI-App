@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25E4EBD0-993C-ABF2-A206-9FA63111ECCC" containerWithKeyObject="96704772-2856-4210-2955-5FDA8E1FD5C7" localFKIndex="F851DCF6-7507-EBC0-872B-B81D01F0C792" name="Karta_Cena_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:22:00 UTC</createdTime>
+<generatorID>53EAF8F9-F99F-3BD9-C5FF-51B6B9D68014</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<referredTableLongName>Cena</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA22C74C-1591-97FE-CCFD-BEAD0A9B067B</referredTableID>
+<keyObject>E7255666-19BB-57B1-A122-ABA4C6A61EF3</keyObject>
+<referredKeyID>E7255666-19BB-57B1-A122-ABA4C6A61EF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idcen</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

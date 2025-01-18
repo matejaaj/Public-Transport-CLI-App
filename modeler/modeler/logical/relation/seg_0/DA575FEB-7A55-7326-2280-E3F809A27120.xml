@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Povera autobusa" directorySegmentName="seg_0" id="DA575FEB-7A55-7326-2280-E3F809A27120">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:50:19 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<sourcePk>609537B0-EB9C-7208-E9BD-D85E2AFD0EBD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>09B79725-59CC-3BE0-95E0-C62E3F433E3C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>502DEBAE-CF97-B613-FF4A-E62218FEC350</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A5DDF54-C5D0-A1B2-CCC2-F842E8B9637F" name="Zaduzenje">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:52:17 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idlin" id="717EDEC4-2AF7-51EC-1845-33BE9475AA63">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:54:32 UTC</createdTime>
+<generatorID>FD02996D-DEC8-5D75-BFCE-A6F1A798C77E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>63207494-19B5-6071-AF56-EB4869F776E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idrad" id="DD07C22D-D3CE-A93F-F882-D0EFE8116B54">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:54:59 UTC</createdTime>
+<generatorID>78DCED1F-69ED-31D6-6C70-2BFECBDA7708</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>DE2C9D95-735D-81EF-2C4C-0A30ABAF200F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F6E9019-3E49-CE4A-A6DD-B314A8402708" name="Zaduzenje_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:48:24 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FD02996D-DEC8-5D75-BFCE-A6F1A798C77E,78DCED1F-69ED-31D6-6C70-2BFECBDA7708</newElementsIDs>
+<usedAttributes>
+<attributeRef>717EDEC4-2AF7-51EC-1845-33BE9475AA63</attributeRef>
+<attributeRef>DD07C22D-D3CE-A93F-F882-D0EFE8116B54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

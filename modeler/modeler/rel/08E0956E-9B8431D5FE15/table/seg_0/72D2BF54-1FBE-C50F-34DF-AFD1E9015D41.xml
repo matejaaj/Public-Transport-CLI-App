@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72D2BF54-1FBE-C50F-34DF-AFD1E9015D41" name="Stanica">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>17DE6D81-31B3-7BF2-5666-CA9E1C10018D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idstan" id="AF0EEA1D-9926-D136-7DA6-D20B54FC0FE4">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>78BD1A82-AFCF-DE0C-40C5-42056317D4D4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazstan" id="EA0A0A80-93E5-0180-7280-E0C2448B6947">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>546E95F6-1C5C-A21E-EDF0-6B209A8DC2FC</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sir" id="BA98E563-0C79-DF53-8354-E40276A136EF">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>BF2E46D8-FE84-F6A7-9DBD-F5E2FA3CE0F4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duz" id="A2F9FC51-2ABD-9783-04B9-7A975644361E">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>D8BCE342-2814-4574-4BB3-921AE7FD062A</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F17C6A6C-C7AD-B323-D78C-67F894FB571C" name="Stanica_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>6522E450-FEF3-3D87-9A06-3297DF44F2D3</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF0EEA1D-9926-D136-7DA6-D20B54FC0FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F63BC85A-566A-433B-DEC4-AF763EC1978A" name="Stanica_nazstan_UN">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>E5E074CC-4489-3BEA-DED3-24CCB77638EE</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA0A0A80-93E5-0180-7280-E0C2448B6947"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

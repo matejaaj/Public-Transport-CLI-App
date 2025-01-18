@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21BA7845-AAF3-984B-A4EE-8687E2D5CA93" containerWithKeyObject="E43BBAC3-EFF1-DB7E-656A-664B9FD91CDC" localFKIndex="46465158-5664-FFD4-2185-4F775062973C" name="Linija_Linija_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>8271A82F-4BE4-7CD0-D0FD-A94DC936D2DE</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<referredTableLongName>Linija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E43BBAC3-EFF1-DB7E-656A-664B9FD91CDC</referredTableID>
+<keyObject>875B1CBA-EA34-8FAE-325E-EF0BA906BF93</keyObject>
+<referredKeyID>875B1CBA-EA34-8FAE-325E-EF0BA906BF93</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idlin</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

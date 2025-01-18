@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43E948D2-ACB6-7D50-2575-E20695DF2E90" name="Raspored">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:24:43 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idras" id="D7E82F58-297E-209C-ED8A-73D3BD0553DB">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:24:49 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dan" id="7748781E-5540-C4DF-C89C-D04BD612E6A7">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:25:06 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33E7558A-D882-ABD5-E5FB-3686EDD633EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrdolaz" id="C136ECB9-91C8-C397-18B0-87B3E3B1C340">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:31:32 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aktivan" id="D56CBFEA-3F4E-7358-593D-8778E59C6B14">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:31:56 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idlin" id="F11A32A0-714F-9D4B-AE5D-FFAABA540859">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:06 UTC</createdTime>
+<generatorID>D2A6C8FC-9D45-BCBA-A1C8-E4D7EB5AAEEA</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>A85CB867-949E-468E-7EAB-39DC908C5A51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idstan" id="8B8292F8-A43A-AD7D-5F97-CC54E0E85E3E">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:06 UTC</createdTime>
+<generatorID>D2A6C8FC-9D45-BCBA-A1C8-E4D7EB5AAEEA</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>1F92C923-BE2E-1C4C-92E5-F2B4D1AFD6C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9043AC4A-123A-5759-E8BB-943F02CAC8D4" name="Raspored PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:24:59 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7E82F58-297E-209C-ED8A-73D3BD0553DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

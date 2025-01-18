@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D94B64A5-E2FA-682E-556F-858B3E8B23C7" name="Putnik">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:44:43 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idput" id="7D28C82F-EB14-54B1-0547-B86A09B47493">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:45:06 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imeput" id="04B6526E-C6E0-B97A-A30A-F0971065298E">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:45:16 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="przput" id="A935730C-51D2-853F-706E-5FAB63DAEE00">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:46:00 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brtelput" id="2C966BC1-145F-23E1-9507-A34A67B54D72">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:46:28 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mailput" id="BBAB6619-9532-71AA-AF60-4D311B080FAD">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:47:04 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCA448BE-9353-B806-FB1C-2CCEF2EC296C" name="Putnik PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:45:12 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D28C82F-EB14-54B1-0547-B86A09B47493</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

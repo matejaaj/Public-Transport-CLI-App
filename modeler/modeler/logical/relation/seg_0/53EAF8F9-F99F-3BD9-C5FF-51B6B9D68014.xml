@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kosta" directorySegmentName="seg_0" id="53EAF8F9-F99F-3BD9-C5FF-51B6B9D68014">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:42:54 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<sourcePk>1943AC35-65DD-9F71-0EE2-CBA95CA10DCC</sourcePk>
+<targetPk>0B1321AD-C810-5E8A-7390-A45F38212519</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F1D0108F-455A-D22F-6F18-7A38A2067F75</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FF99AB0E-E6A8-85D4-1617-D18045685E48</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Na stanici" directorySegmentName="seg_0" id="FC1CCF41-A4E9-3CCA-3094-EDD6B0354B59">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:34:19 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<sourcePk>DC2C6D49-3E4D-3EDB-673D-1F38E2B860B9</sourcePk>
+<targetPk>6522E450-FEF3-3D87-9A06-3297DF44F2D3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6EC1B79F-D21E-73A0-E8DE-6E882FE7F74B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>17DE6D81-31B3-7BF2-5666-CA9E1C10018D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09B79725-59CC-3BE0-95E0-C62E3F433E3C" name="Detalji povere autobusa">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:48:44 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idpova" id="F2C8B1AD-536A-51C0-A370-115A0C460058">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:49:23 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datvozod" id="9CDB5AA3-D551-6439-8D29-16081FC5B716">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:49:38 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="davozdo" id="8C90665C-24BC-423B-ED55-CF7C676668AC">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:49:59 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idaut" id="2AB0EB65-DF88-6308-DAE9-E0472EA7A7E5">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 17:04:50 UTC</createdTime>
+<generatorID>DA575FEB-7A55-7326-2280-E3F809A27120</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>7721DE8A-3838-C9D6-847A-FE56AA584CB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idrad" id="81FCA366-1E66-415E-0FE7-2F3F42FC414B">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 17:04:50 UTC</createdTime>
+<generatorID>DA575FEB-7A55-7326-2280-E3F809A27120</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>A3D7CBE0-5AA6-D23F-C03B-38A3EB71B1E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="609537B0-EB9C-7208-E9BD-D85E2AFD0EBD" name="Detalji povere autobusa PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:49:36 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2C8B1AD-536A-51C0-A370-115A0C460058</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

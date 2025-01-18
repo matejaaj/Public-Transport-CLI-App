@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48FF3D03-9D2D-4B7D-F7B2-73EC59A4779F" name="Servis">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:07:40 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idserv" id="6DA26D98-5D9A-384E-875E-73C6A4C21BA6">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:07:55 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datserv" id="5C0E7033-69EC-1857-FE7A-8B31C31CB47C">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:08:13 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="CE6AC523-10ED-6345-573B-20AA2EE4CCE0">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:08:29 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idrad" id="D262B25F-09BD-7E64-8805-712B3C013B64">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:18:09 UTC</createdTime>
+<generatorID>0077AA7D-19DE-712B-95C8-36EFAEB61534</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<referedAttribute>DE2C9D95-735D-81EF-2C4C-0A30ABAF200F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idaut" id="CA846AA1-B755-970F-3EAF-3182EA8F4535">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:28:06 UTC</createdTime>
+<generatorID>9BDD299C-1C07-7168-03DB-89CA3DE47632</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<referedAttribute>2812BD13-9DB3-7F7E-7DDB-6E1A3DC53191</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E643256A-6136-9BE7-BE4D-DC83ED6A4C88" name="Servis PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:08:04 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DA26D98-5D9A-384E-875E-73C6A4C21BA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

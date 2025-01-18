@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C27EC7FD-8630-907F-A6A6-21DE292C1FD5" name="Linija">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:52:32 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idlin" id="63207494-19B5-6071-AF56-EB4869F776E3">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:52:48 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazlin" id="671C9896-0077-BF3D-6478-7D7CD0F36154">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:52:59 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idlin1" id="9425BC97-F070-68CB-8789-A9191150C344">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:04:07 UTC</createdTime>
+<generatorID>8271A82F-4BE4-7CD0-D0FD-A94DC936D2DE</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>63207494-19B5-6071-AF56-EB4869F776E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpocstan" id="C9558B39-EB6F-4869-762C-61A6E7E82883">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:13:57 UTC</createdTime>
+<generatorID>972831E0-9E31-117C-2569-98FE863714BC</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>78BD1A82-AFCF-DE0C-40C5-42056317D4D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idkrajstan" id="E1CD9916-EECD-90F9-345E-145A2CA51283">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:17:30 UTC</createdTime>
+<generatorID>ADADF370-17D6-EA25-0C3E-1A195149F6B9</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>78BD1A82-AFCF-DE0C-40C5-42056317D4D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA0E2562-3304-8A61-5271-9A1F04F9D63F" name="Linija PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:52:56 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63207494-19B5-6071-AF56-EB4869F776E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

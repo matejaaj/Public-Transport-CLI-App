@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDD4A9B6-1233-6DE3-E5EF-262EC38B9E90" containerWithKeyObject="90B3D93B-DCC3-C820-7504-A679670431FD" localFKIndex="6F69A96E-1128-3547-FCF7-55387B5AF2E6" name="Se_cekira_Karta_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>03DD8DF4-0D49-8BEC-B289-3EE0A6C2B13F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<referredTableLongName>Karta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96704772-2856-4210-2955-5FDA8E1FD5C7</referredTableID>
+<keyObject>E0C1134A-C983-6D07-B29A-4C5EFBA1F8EA</keyObject>
+<referredKeyID>E0C1134A-C983-6D07-B29A-4C5EFBA1F8EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idkar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

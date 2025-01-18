@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3901B326-AC41-0718-6DA3-E62811AEE2C0" name="Sadrzi">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>D9BCAEFC-4794-AA77-3A9B-3993A1A3F4D7</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idlin" id="8C59559A-FCB7-A9A0-8FBF-DDB4CE863BEE">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>A85CB867-949E-468E-7EAB-39DC908C5A51</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F2DF9A3-700D-253A-575D-E3FD21923576" referredColumn="98FCDFE7-5017-6413-D96B-38535B807C65"/>
+</associations>
+</Column>
+<Column name="idstan" id="1A08B888-9A56-F98B-5FED-59B7B31C6B76">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>1F92C923-BE2E-1C4C-92E5-F2B4D1AFD6C5</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="846145E8-8F18-46CC-6C67-96A13239D1B8" referredColumn="AF0EEA1D-9926-D136-7DA6-D20B54FC0FE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1721BF3-35D9-C868-ECD1-8F50A8677173" name="Sadrzi_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8C59559A-FCB7-A9A0-8FBF-DDB4CE863BEE"/>
+<colUsage columnID="1A08B888-9A56-F98B-5FED-59B7B31C6B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48262896-2BBF-3F31-7FE1-BC7394503D7C" name="Sadrzi_Linija_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>B0223CEA-0858-FD11-3BF9-A169883ACE58</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C59559A-FCB7-A9A0-8FBF-DDB4CE863BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="248F4B88-8709-9B80-12B2-838645BECA3C" name="Sadrzi_Stanica_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>ED4B38CC-2E29-EA80-B9E4-C1BE9DDD6048</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A08B888-9A56-F98B-5FED-59B7B31C6B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

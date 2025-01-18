@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C34FA68-9AEE-91AE-382C-7796D3931888" containerWithKeyObject="2269F5B8-C52F-1EBC-622F-C0BBF2B59A85" localFKIndex="F2456191-36EB-F7AA-74E4-AB2265BB4DF9" name="Raspored_Sadrzi_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:22:00 UTC</createdTime>
+<generatorID>D2A6C8FC-9D45-BCBA-A1C8-E4D7EB5AAEEA</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<referredTableLongName>Sadrzi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3901B326-AC41-0718-6DA3-E62811AEE2C0</referredTableID>
+<keyObject>E1721BF3-35D9-C868-ECD1-8F50A8677173</keyObject>
+<referredKeyID>E1721BF3-35D9-C868-ECD1-8F50A8677173</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sadrzi_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

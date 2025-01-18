@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C302B830-1590-83F2-5C78-666E1632CA65" name="Detalji povere linije">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:55:36 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idpovli" id="7271AB87-9C1E-6348-6568-803F1BEB80ED">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:55:43 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datlinod" id="330C2BC2-8C32-FE17-A238-FE7A2C898BB9">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:55:53 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datlindo" id="CCE14EB8-6719-D97A-8DC1-D61A8511FB9D">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:56:08 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idlin" id="5DB99689-D7E8-44FE-18EC-9C4E34815764">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:48:37 UTC</createdTime>
+<generatorID>A6A270C0-C92E-101A-D989-50D3E3B31D0F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>717EDEC4-2AF7-51EC-1845-33BE9475AA63</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idrad" id="2891E462-8EEE-13F7-1E74-4BCB1A31ED97">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:48:37 UTC</createdTime>
+<generatorID>A6A270C0-C92E-101A-D989-50D3E3B31D0F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>DD07C22D-D3CE-A93F-F882-D0EFE8116B54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26D16722-7F0D-6AEE-E4E5-BFEC25F8827D" name="Detalji povere linije PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:55:51 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7271AB87-9C1E-6348-6568-803F1BEB80ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

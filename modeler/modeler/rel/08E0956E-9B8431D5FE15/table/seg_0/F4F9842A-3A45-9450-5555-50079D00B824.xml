@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4F9842A-3A45-9450-5555-50079D00B824" name="Zaduzenje">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>4A5DDF54-C5D0-A1B2-CCC2-F842E8B9637F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idlin" id="7CB31DBC-CEDB-4242-890C-210F22D83E23">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>717EDEC4-2AF7-51EC-1845-33BE9475AA63</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A26DA91B-30FC-0376-22A8-FFEECA341EAB" referredColumn="98FCDFE7-5017-6413-D96B-38535B807C65"/>
+</associations>
+</Column>
+<Column name="idrad" id="BA621977-6E22-AE2F-685E-B82099444798">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 14:13:55 UTC</createdTime>
+<generatorID>DD07C22D-D3CE-A93F-F882-D0EFE8116B54</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8186DB0-D8EA-6D0D-19FA-80BE8A9C464B" referredColumn="EE4F7D98-D4AE-DAE6-8187-A4B2C5A7EBA6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B902D9F4-D38F-9CA0-CE85-72FFE55E944D" name="Zaduzenje_PKv2">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:21 UTC</createdTime>
+<generatorID>3F6E9019-3E49-CE4A-A6DD-B314A8402708</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB31DBC-CEDB-4242-890C-210F22D83E23"/>
+<colUsage columnID="BA621977-6E22-AE2F-685E-B82099444798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE44B28-9EC5-CCF0-4A53-172E1EC340FA" name="Zaduzenje_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BA621977-6E22-AE2F-685E-B82099444798"/>
+<colUsage columnID="7CB31DBC-CEDB-4242-890C-210F22D83E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4E599F5-5B94-AA16-12B8-320B8D28E27D" name="Zaduzenje_Linija_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>FD02996D-DEC8-5D75-BFCE-A6F1A798C77E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB31DBC-CEDB-4242-890C-210F22D83E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07BA9CC9-A357-8F19-19E8-8114E848711A" name="Zaduzenje_Radnik_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 17:28:07 UTC</createdTime>
+<generatorID>78DCED1F-69ED-31D6-6C70-2BFECBDA7708</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA621977-6E22-AE2F-685E-B82099444798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

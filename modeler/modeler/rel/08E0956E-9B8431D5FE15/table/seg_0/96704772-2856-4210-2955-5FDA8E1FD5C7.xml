@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96704772-2856-4210-2955-5FDA8E1FD5C7" name="Karta">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>F1D0108F-455A-D22F-6F18-7A38A2067F75</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkar" id="2344ED64-3024-311C-B89D-45E37A84ED57">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>1DF7EE90-04D3-8DC5-9086-E2E9BE95B809</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datkup" id="E4BCFC48-AA1F-7CB1-1AD9-C0721BEFE12D">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>53216772-BBC8-18AD-5D70-CCEE6B3F481A</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazido" id="1CDB1EA2-B14C-6BE6-5CCA-C0E35140CD19">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>2E80BC95-9E70-BFD4-4FDA-06394B128F42</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idput" id="BB58200A-CAE1-91E4-428E-C771C6941E1D">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>A4D3C513-C3AF-040A-4019-281A930B3C90</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64AA669A-4FC8-235A-0719-D2DD7A3AA796" referredColumn="585CA24D-76E3-7D90-069F-AB0909C68B11"/>
+</associations>
+</Column>
+<Column name="idcen" id="2B1D4931-0CB4-773F-6D9D-B766C9351475">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:22:00 UTC</createdTime>
+<generatorID>EB295D87-BC85-1D25-7A6E-B957CB5F6A84</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25E4EBD0-993C-ABF2-A206-9FA63111ECCC" referredColumn="3AAAB780-9B52-C082-DE3D-858BCD588C1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0C1134A-C983-6D07-B29A-4C5EFBA1F8EA" name="Karta_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>1943AC35-65DD-9F71-0EE2-CBA95CA10DCC</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2344ED64-3024-311C-B89D-45E37A84ED57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C784188D-86FF-4C0D-016F-D65A50B9089D" name="Karta_Putnik_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>151D3F43-FFB1-FB71-9338-473A18451365</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB58200A-CAE1-91E4-428E-C771C6941E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F851DCF6-7507-EBC0-872B-B81D01F0C792" name="Karta_Cena_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:22:00 UTC</createdTime>
+<generatorID>53EAF8F9-F99F-3BD9-C5FF-51B6B9D68014</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B1D4931-0CB4-773F-6D9D-B766C9351475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

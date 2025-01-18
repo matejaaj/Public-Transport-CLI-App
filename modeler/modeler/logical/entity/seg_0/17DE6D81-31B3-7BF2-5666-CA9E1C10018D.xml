@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17DE6D81-31B3-7BF2-5666-CA9E1C10018D" name="Stanica">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:05:44 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idstan" id="78BD1A82-AFCF-DE0C-40C5-42056317D4D4">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:06:56 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazstan" id="546E95F6-1C5C-A21E-EDF0-6B209A8DC2FC">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:07:06 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sir" id="BF2E46D8-FE84-F6A7-9DBD-F5E2FA3CE0F4">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:08:08 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duz" id="D8BCE342-2814-4574-4BB3-921AE7FD062A">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:09:49 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6522E450-FEF3-3D87-9A06-3297DF44F2D3" name="Stanica PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:07:03 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78BD1A82-AFCF-DE0C-40C5-42056317D4D4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E5E074CC-4489-3BEA-DED3-24CCB77638EE" name="UNQ_Nazivstanice">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:07:29 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<newElementsIDs>546E95F6-1C5C-A21E-EDF0-6B209A8DC2FC</newElementsIDs>
+<usedAttributes>
+<attributeRef>546E95F6-1C5C-A21E-EDF0-6B209A8DC2FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

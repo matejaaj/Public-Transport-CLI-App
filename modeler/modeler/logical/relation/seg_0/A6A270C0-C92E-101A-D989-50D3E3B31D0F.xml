@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Povera linije" directorySegmentName="seg_0" id="A6A270C0-C92E-101A-D989-50D3E3B31D0F">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 13:56:25 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<sourcePk>26D16722-7F0D-6AEE-E4E5-BFEC25F8827D</sourcePk>
+<targetPk>3F6E9019-3E49-CE4A-A6DD-B314A8402708</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C302B830-1590-83F2-5C78-666E1632CA65</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4A5DDF54-C5D0-A1B2-CCC2-F842E8B9637F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

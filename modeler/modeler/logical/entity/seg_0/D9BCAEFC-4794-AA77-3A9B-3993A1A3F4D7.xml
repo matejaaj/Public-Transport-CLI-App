@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9BCAEFC-4794-AA77-3A9B-3993A1A3F4D7" name="Sadrzi">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:06:09 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idlin" id="A85CB867-949E-468E-7EAB-39DC908C5A51">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:06:30 UTC</createdTime>
+<generatorID>B0223CEA-0858-FD11-3BF9-A169883ACE58</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>63207494-19B5-6071-AF56-EB4869F776E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idstan" id="1F92C923-BE2E-1C4C-92E5-F2B4D1AFD6C5">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:07:04 UTC</createdTime>
+<generatorID>ED4B38CC-2E29-EA80-B9E4-C1BE9DDD6048</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<referedAttribute>78BD1A82-AFCF-DE0C-40C5-42056317D4D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5CE0DC8-8A1A-6428-0FA4-E59284944B57" name="Sadrzi_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:48:51 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B0223CEA-0858-FD11-3BF9-A169883ACE58,ED4B38CC-2E29-EA80-B9E4-C1BE9DDD6048</newElementsIDs>
+<usedAttributes>
+<attributeRef>A85CB867-949E-468E-7EAB-39DC908C5A51</attributeRef>
+<attributeRef>1F92C923-BE2E-1C4C-92E5-F2B4D1AFD6C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

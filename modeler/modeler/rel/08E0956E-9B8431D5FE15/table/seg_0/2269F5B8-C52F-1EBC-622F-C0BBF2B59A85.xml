@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2269F5B8-C52F-1EBC-622F-C0BBF2B59A85" name="Raspored">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>43E948D2-ACB6-7D50-2575-E20695DF2E90</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idras" id="3C2C9B40-3723-861E-1878-EA0A30569A72">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>D7E82F58-297E-209C-ED8A-73D3BD0553DB</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dan" id="2EEB3DAE-BA4B-1F7E-9783-1DCD5E6AA184">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>7748781E-5540-C4DF-C89C-D04BD612E6A7</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33E7558A-D882-ABD5-E5FB-3686EDD633EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrdolaz" id="FDBED6CF-A8FE-89B8-AACD-C361188F83DE">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>C136ECB9-91C8-C397-18B0-87B3E3B1C340</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aktivan" id="0F1C8C9C-5F10-7364-D548-B4BD73058AA6">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>D56CBFEA-3F4E-7358-593D-8778E59C6B14</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idlin" id="53D0AB74-EFA8-0E83-FD5C-796D575C9B41">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:21 UTC</createdTime>
+<generatorID>F11A32A0-714F-9D4B-AE5D-FFAABA540859</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C34FA68-9AEE-91AE-382C-7796D3931888" referredColumn="8C59559A-FCB7-A9A0-8FBF-DDB4CE863BEE"/>
+</associations>
+</Column>
+<Column name="idstan" id="44AF1BE9-DD0B-69DC-0CFC-6A090500924A">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:21 UTC</createdTime>
+<generatorID>8B8292F8-A43A-AD7D-5F97-CC54E0E85E3E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C34FA68-9AEE-91AE-382C-7796D3931888" referredColumn="1A08B888-9A56-F98B-5FED-59B7B31C6B76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="294592F1-3EB5-A5D7-1A6E-D77B766BF504" name="Raspored_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>9043AC4A-123A-5759-E8BB-943F02CAC8D4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2C9B40-3723-861E-1878-EA0A30569A72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2456191-36EB-F7AA-74E4-AB2265BB4DF9" name="Raspored_Sadrzi_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:22:00 UTC</createdTime>
+<generatorID>D2A6C8FC-9D45-BCBA-A1C8-E4D7EB5AAEEA</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D0AB74-EFA8-0E83-FD5C-796D575C9B41"/>
+<colUsage columnID="44AF1BE9-DD0B-69DC-0CFC-6A090500924A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

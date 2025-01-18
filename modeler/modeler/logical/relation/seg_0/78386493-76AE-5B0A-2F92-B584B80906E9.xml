@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dolazak autobusa" directorySegmentName="seg_0" id="78386493-76AE-5B0A-2F92-B584B80906E9">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:36:30 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="EC36B0DE-1BEE-5E7E-E29E-824A4386FC4C" value="true"/>
+</engineerTo>
+<sourcePk>DC2C6D49-3E4D-3EDB-673D-1F38E2B860B9</sourcePk>
+<targetPk>CB5D9DCF-6D14-BC21-58AC-5CE2CFA09633</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6EC1B79F-D21E-73A0-E8DE-6E882FE7F74B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F2E96E3C-C64E-9064-D116-E39CC6A20CA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

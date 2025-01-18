@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD3DBD33-7498-7E30-1244-0BAE6C8FDF45" name="Radnik">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:39:49 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorAttributeID>EC40C47A-3791-6049-9CAB-E1BEA6BFC0F4</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idrad" id="DE2C9D95-735D-81EF-2C4C-0A30ABAF200F">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:41:00 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="21A1DCC8-027C-FC9C-55E5-9343D37510D2">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:52:31 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prz" id="E1E4B653-F3B7-1FC4-0FB8-1A6D4201857C">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:53:04 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brtel" id="787326F3-FBF0-7735-6ED9-AFA07411297D">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:56:21 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mail" id="4DDAEF3A-8A89-FEDD-F9A5-212EE39E0459">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:57:15 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr" id="83CC752F-DD06-7F6C-4550-0B79BDCA51B6">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 19:02:05 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datzap" id="8E43378B-B5A1-087D-1037-D7772916B059">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 19:02:54 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiprad" id="EC40C47A-3791-6049-9CAB-E1BEA6BFC0F4">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 14:07:54 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A7901AB-6BAA-0FAB-3A04-ED4F662595F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E3DD8DC-5868-49B5-0E56-1BE54B691D39" name="Radnik PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:42:20 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE2C9D95-735D-81EF-2C4C-0A30ABAF200F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8900E42F-0029-551E-76BD-E1970A5CECAD" name="UNQ_Mail">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 18:58:31 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<newElementsIDs>4DDAEF3A-8A89-FEDD-F9A5-212EE39E0459</newElementsIDs>
+<usedAttributes>
+<attributeRef>4DDAEF3A-8A89-FEDD-F9A5-212EE39E0459</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F11430A8-7436-C414-4D67-9127F25A3404" name="UNQ_Mbr">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-11 19:02:29 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="false"/>
+</engineerTo>
+<newElementsIDs>83CC752F-DD06-7F6C-4550-0B79BDCA51B6</newElementsIDs>
+<usedAttributes>
+<attributeRef>83CC752F-DD06-7F6C-4550-0B79BDCA51B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

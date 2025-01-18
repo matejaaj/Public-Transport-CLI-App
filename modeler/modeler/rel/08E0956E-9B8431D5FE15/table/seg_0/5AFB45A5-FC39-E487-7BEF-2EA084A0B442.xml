@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AFB45A5-FC39-E487-7BEF-2EA084A0B442" name="Radnik">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>CD3DBD33-7498-7E30-1244-0BAE6C8FDF45</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idrad" id="EE4F7D98-D4AE-DAE6-8187-A4B2C5A7EBA6">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>DE2C9D95-735D-81EF-2C4C-0A30ABAF200F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="C92FC705-2135-A778-9057-DEB5873C590C">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>21A1DCC8-027C-FC9C-55E5-9343D37510D2</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prz" id="D9EDC0A4-4324-8361-0BCC-87CBFB1CF057">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>E1E4B653-F3B7-1FC4-0FB8-1A6D4201857C</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brtel" id="3CB437A0-2AB4-306A-2A8C-31A89D36D9C7">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>787326F3-FBF0-7735-6ED9-AFA07411297D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail" id="FCAFD33A-DCF8-C4D9-E3D7-7E9FCA4D71AE">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>4DDAEF3A-8A89-FEDD-F9A5-212EE39E0459</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mbr" id="00DFD8D6-28C5-FC51-47C7-76D39A21B02B">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>83CC752F-DD06-7F6C-4550-0B79BDCA51B6</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datzap" id="2A477DA5-4F9E-2B4B-F374-37EBED207105">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>8E43378B-B5A1-087D-1037-D7772916B059</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiprad" id="070B1A97-DA92-BC14-467A-AA4A78C66703">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 14:08:37 UTC</createdTime>
+<generatorID>EC40C47A-3791-6049-9CAB-E1BEA6BFC0F4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A7901AB-6BAA-0FAB-3A04-ED4F662595F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brdoz" id="EFEB14BE-7298-CB6E-C643-45B9755A6651">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 14:13:55 UTC</createdTime>
+<generatorID>C40F8B99-3B63-61AF-DE11-7B0D34BB38A7</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0DB2D64-16C9-A2CB-82E0-7DD3DC23F5C0" name="Radnik_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>2E3DD8DC-5868-49B5-0E56-1BE54B691D39</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE4F7D98-D4AE-DAE6-8187-A4B2C5A7EBA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3314804-EFDE-B12C-9D86-88D302497A30" name="Radnik_mail_UN">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>8900E42F-0029-551E-76BD-E1970A5CECAD</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCAFD33A-DCF8-C4D9-E3D7-7E9FCA4D71AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6119878-C759-88A3-E53C-A4FABB4ED331" name="Radnik_mbr_UN">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>F11430A8-7436-C414-4D67-9127F25A3404</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00DFD8D6-28C5-FC51-47C7-76D39A21B02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

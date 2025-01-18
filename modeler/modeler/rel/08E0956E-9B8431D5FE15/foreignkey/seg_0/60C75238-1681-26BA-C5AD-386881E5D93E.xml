@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="60C75238-1681-26BA-C5AD-386881E5D93E" containerWithKeyObject="C76735B4-0683-DA4F-B0EB-C851EB9E9228" localFKIndex="522022AC-589F-0582-3900-C5EDC125DF07" name="Dolazak_Autobus_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>78386493-76AE-5B0A-2F92-B584B80906E9</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<referredTableLongName>Autobus</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>908D5D03-AAC4-3241-43C5-C0CEBD5A865B</referredTableID>
+<keyObject>BC1FAAB3-3688-6DB4-EE78-CE42632324A1</keyObject>
+<referredKeyID>BC1FAAB3-3688-6DB4-EE78-CE42632324A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idaut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

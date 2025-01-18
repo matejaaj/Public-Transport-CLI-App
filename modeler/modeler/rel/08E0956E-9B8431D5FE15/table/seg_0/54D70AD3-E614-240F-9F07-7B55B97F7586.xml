@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54D70AD3-E614-240F-9F07-7B55B97F7586" name="Detalji_povere_linije">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>C302B830-1590-83F2-5C78-666E1632CA65</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idpovli" id="8C107C76-C08A-2479-CA86-7C12F9C67F46">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>7271AB87-9C1E-6348-6568-803F1BEB80ED</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datlinod" id="0B118821-35D7-DCF3-6394-D379F92FF919">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>330C2BC2-8C32-FE17-A238-FE7A2C898BB9</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datlindo" id="2D8B45AF-27A0-6861-6823-8AB7E2EFE98B">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>CCE14EB8-6719-D97A-8DC1-D61A8511FB9D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idlin" id="4B2C6F5B-97F6-E0D1-02FD-5B029BFF18C9">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:21 UTC</createdTime>
+<generatorID>5DB99689-D7E8-44FE-18EC-9C4E34815764</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5208516-C957-7100-F343-ED8165A00734" referredColumn="7CB31DBC-CEDB-4242-890C-210F22D83E23"/>
+</associations>
+</Column>
+<Column name="idrad" id="B52C8883-176E-8413-9237-053E21387F89">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:49:21 UTC</createdTime>
+<generatorID>2891E462-8EEE-13F7-1E74-4BCB1A31ED97</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5208516-C957-7100-F343-ED8165A00734" referredColumn="BA621977-6E22-AE2F-685E-B82099444798"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EC283F6-3A63-DF3B-66A4-AD1417BD3F0B" name="Detalji_povere_linije_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>26D16722-7F0D-6AEE-E4E5-BFEC25F8827D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C107C76-C08A-2479-CA86-7C12F9C67F46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB9EF336-363B-89A1-7B87-02160FFC8B3B" name="Det_pov_lin_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>A6A270C0-C92E-101A-D989-50D3E3B31D0F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B52C8883-176E-8413-9237-053E21387F89"/>
+<colUsage columnID="4B2C6F5B-97F6-E0D1-02FD-5B029BFF18C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

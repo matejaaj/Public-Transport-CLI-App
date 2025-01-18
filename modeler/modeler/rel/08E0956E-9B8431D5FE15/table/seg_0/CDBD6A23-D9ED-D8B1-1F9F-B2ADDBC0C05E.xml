@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDBD6A23-D9ED-D8B1-1F9F-B2ADDBC0C05E" name="Vozi">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>502DEBAE-CF97-B613-FF4A-E62218FEC350</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idaut" id="CA25D505-E12E-9482-258D-AB0ED9A5F374">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>7721DE8A-3838-C9D6-847A-FE56AA584CB6</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70BC0845-4DC4-94F9-9C03-58F8064828A1" referredColumn="1B245B52-B662-296A-B14C-5EA52EF2D940"/>
+</associations>
+</Column>
+<Column name="idrad" id="1D39DA65-F8BE-02F0-3ADD-8FEC49B8C759">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 14:13:55 UTC</createdTime>
+<generatorID>A3D7CBE0-5AA6-D23F-C03B-38A3EB71B1E2</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="750108E1-E062-54F2-B667-608691D685EB" referredColumn="EE4F7D98-D4AE-DAE6-8187-A4B2C5A7EBA6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84CD0820-9EC8-927B-431D-B30834754184" name="Vozi_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 17:05:12 UTC</createdTime>
+<generatorID>0F141D4E-A829-16C8-F464-2EC09D5A99A4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA25D505-E12E-9482-258D-AB0ED9A5F374"/>
+<colUsage columnID="1D39DA65-F8BE-02F0-3ADD-8FEC49B8C759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35422BB9-5E35-EC79-A32C-7BBCC4309661" name="Vozi_PKv1">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 16:59:19 UTC</createdTime>
+<generatorID>9A28EDB9-7F0A-05B0-6EB5-E0478C998208</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA25D505-E12E-9482-258D-AB0ED9A5F374"/>
+<colUsage columnID="1D39DA65-F8BE-02F0-3ADD-8FEC49B8C759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D7C17CE-52C3-770A-DF99-1DC920C823CD" name="Vozi_Autobus_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>390E0340-CBCD-B1BC-8F5D-1966F050C4CE</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA25D505-E12E-9482-258D-AB0ED9A5F374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="741692E8-04CB-8E75-8624-0EE15D2954D9" name="Vozi_Radnik_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-13 17:28:07 UTC</createdTime>
+<generatorID>C011A073-A8C8-BF5F-297F-FAA2740C48DE</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D39DA65-F8BE-02F0-3ADD-8FEC49B8C759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

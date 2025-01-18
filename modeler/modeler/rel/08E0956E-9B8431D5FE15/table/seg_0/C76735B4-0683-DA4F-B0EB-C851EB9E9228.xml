@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C76735B4-0683-DA4F-B0EB-C851EB9E9228" name="Dolazak">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>6EC1B79F-D21E-73A0-E8DE-6E882FE7F74B</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="iddolaz" id="F5054BD9-8275-560B-6EFD-747555AAAD2B">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>FC1A3C99-94BC-F03D-F0F4-B81D2CC56A4D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datdolaz" id="09BE1B5B-9053-53F1-C8B0-13EE99B124CF">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>19F5255A-66D5-2E77-833A-E97BF8333F2E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idstan" id="9DE836D5-0F6A-DA16-8447-7855B86FF45D">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>07DAF94B-2830-4E2E-CC79-8C450114EE05</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EF0A299-C545-0FB2-2C83-C67582FD763C" referredColumn="AF0EEA1D-9926-D136-7DA6-D20B54FC0FE4"/>
+</associations>
+</Column>
+<Column name="idaut" id="7CB07E7F-4737-7775-151D-869197556CF8">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>C0478E53-D374-6EA7-3FF1-293764AAAECB</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60C75238-1681-26BA-C5AD-386881E5D93E" referredColumn="1B245B52-B662-296A-B14C-5EA52EF2D940"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19021780-D019-21E9-88C9-A20C8FA881CA" name="Dolazak_PK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>DC2C6D49-3E4D-3EDB-673D-1F38E2B860B9</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5054BD9-8275-560B-6EFD-747555AAAD2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="522022AC-589F-0582-3900-C5EDC125DF07" name="Dolazak_Autobus_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>78386493-76AE-5B0A-2F92-B584B80906E9</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB07E7F-4737-7775-151D-869197556CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEA9C94F-B29B-249B-D435-68903DB52B62" name="Dolazak_Stanica_FK">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 15:08:33 UTC</createdTime>
+<generatorID>FC1CCF41-A4E9-3CCA-3094-EDD6B0354B59</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DE836D5-0F6A-DA16-8447-7855B86FF45D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

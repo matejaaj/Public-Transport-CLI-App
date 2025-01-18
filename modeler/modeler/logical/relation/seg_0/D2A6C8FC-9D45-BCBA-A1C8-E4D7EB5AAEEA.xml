@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Obuhvata" directorySegmentName="seg_0" id="D2A6C8FC-9D45-BCBA-A1C8-E4D7EB5AAEEA">
+<createdBy>Mateja</createdBy>
+<createdTime>2025-01-12 14:28:05 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="08E0956E-4218-D594-0642-9B8431D5FE15" value="true"/>
+</engineerTo>
+<sourcePk>F5CE0DC8-8A1A-6428-0FA4-E59284944B57</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9BCAEFC-4794-AA77-3A9B-3993A1A3F4D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43E948D2-ACB6-7D50-2575-E20695DF2E90</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
